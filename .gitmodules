@@ -1,7 +1,3 @@
-[submodule "tg-station"]
-	path = tg-station
-	url = https://github.com/ForFoxSake/-tg-station.git
-	branch = core
 [submodule "tgstation"]
 	path = tgstation
 	url = https://github.com/ForFoxSake/-tg-station.git
