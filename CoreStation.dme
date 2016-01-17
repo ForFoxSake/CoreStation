@@ -1,0 +1,31 @@
+// DM Environment file for CoreStation.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+#include "tgstation/tgstation.dme"
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "code\narky\_requisite.dm"
+#include "code\narky\chemistry.dm"
+#include "code\narky\cleanable.dm"
+#include "code\narky\genetics.dm"
+#include "code\narky\macro.dm"
+#include "code\narky\panel.dm"
+#include "code\narky\preferences.dm"
+#include "code\narky\races.dm"
+#include "code\narky\science.dm"
+#include "code\narky\transfer_release.dm"
+#include "code\narky\transformation.dm"
+#include "code\narky\unassigned.dm"
+#include "code\narky\update_icon.dm"
+// END_INCLUDE
+
