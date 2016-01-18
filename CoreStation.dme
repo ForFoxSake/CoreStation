@@ -17,6 +17,7 @@
 #include "code\narky\_requisite.dm"
 #include "code\narky\chemistry.dm"
 #include "code\narky\cleanable.dm"
+#include "code\narky\dildo.dm"
 #include "code\narky\genetics.dm"
 #include "code\narky\macro.dm"
 #include "code\narky\panel.dm"

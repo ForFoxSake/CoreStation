@@ -12,7 +12,6 @@ datum
 			adjective="ordinary"
 			taur="horse"
 		abductor
-			//name="abductor"
 			id="abductor"
 			generic="abductor"
 			adjective="spooky"
@@ -27,58 +26,53 @@ datum
 			id="slime"
 			generic="slime"
 			adjective="slimy"
+		jelly
+			name="jelly"
+			id="jelly"
+			generic="jelly"
+			adjective="jelly"
 		fly
-			//name="fly"
 			generic="insect"
 			adjective="buzzy"
 			restricted=1
 		skeleton
-			//name="skeleton"
 			generic="human"
 			adjective="very boney"
 			restricted=2
 			attack_verb = "bone"
 		cosmetic_skeleton
-			//name="skeleton"
 			generic="skeleton"
 			adjective="not as boney"
 			restricted=2
 			attack_verb = "bone"
 		shadow
-			//name="shadow"
 			generic="darkness"
 			adjective="shady"
 			restricted=2
 		golem
-			//name="golem"
 			generic="golem"
 			adjective="rocky"
 			restricted=2
 		golem/adamantine
-			//name="adamantine"
 			generic="golem"
 			adjective="rocky"
 			restricted=2
 		zombie
-			//name="zombie"
 			id="zombie"
 			generic="zombie"
 			adjective="rotten"
 			restricted=2
 		cosmetic_zombie
-			//name="zombie"
 			id="zombie"
 			generic="zombie"
 			adjective="morerotten"
 			restricted=2
 		plasmaman
-			//name="Plasmabone"
 			id="plasmaman"
 			generic="plasmaman"
 			adjective="toxic"
 			restricted=2
 		plasmaman/skin
-			//name="Skinbone"
 			id="plasmaman"
 			generic="plasmaman"
 			adjective="toxic"
@@ -119,6 +113,12 @@ datum
 				tail=1
 				attack_verb = "tail slaps"
 				attack_sound = 'sound/items/dodgeball.ogg'
+			boar
+				name="boar"
+				id="boar"
+				generic="boar"
+				adjective="wild curly"
+				tail=1
 			capra
 				name="caprine"
 				id="capra"
@@ -205,11 +205,12 @@ datum
 				adjective="derpy"
 				tail=1
 				taur=1
-			jelly
-				name="jelly"
-				id="jelly"
-				generic="jelly"
-				adjective="jelly"
+			kangaroo
+				name="kangaroo"
+				id="kangaroo"
+				generic="kangaroo"
+				adjective="bouncy"
+				tail=1
 			lab
 				name="lab"
 				id="lab"
@@ -285,6 +286,18 @@ datum
 				generic="raccoon"
 				adjective="stripy"
 				tail=1
+			roorat
+				name="kangaroo rat"
+				id="roorat"
+				generic="roorat"
+				adjective="bouncy rat"
+				tail=1
+			seaslug
+				name="sea slug"
+				id="seaslug"
+				generic="slug"
+				adjective="salty"
+				tail=1
 			shark
 				name="shark"
 				id="shark"
@@ -305,6 +318,12 @@ datum
 				say_mod = "snuffles"
 				generic="mephit"
 				adjective="stinky"
+				tail=1
+			smilodon
+				name="smilodon"
+				id="smilodon"
+				generic="smilodon"
+				adjective="toothy"
 				tail=1
 			snake
 				name="snake"
@@ -328,6 +347,12 @@ datum
 				taur=1
 				attack_verb = "claw"
 				attack_sound = 'sound/weapons/bladeslice.ogg'
+			turtle
+				name="turtle"
+				id="turtle"
+				generic="turtle"
+				adjective="hard"
+				tail=1
 			wolf
 				name="wolf"
 				id="wolf"
@@ -507,20 +532,22 @@ var/list/mutant_tails = list(
 	"panda"="ailurus",
 	"pig"="pig",
 	"cow"="cow",
+	"kangaroo"="kangaroo",
 	)
 
 var/list/mutant_wings = list(
 	"none"=0,
 	"bat"="bat",
 	"feathery"="feathery",
+	"moth"="moth",
+	"fairy"="fairy",
 	)
 
 var/list/cock_list = list(
 	"human",
 	"canine",
 	"feline",
-	"murid",
-	"leporid",
+	"reptilian",
 	//"custom",
 	)
 
